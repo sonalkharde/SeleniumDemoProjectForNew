@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-23T17:35:46 IST" name="Suite" finished-at="2022-06-23T17:36:25 IST" duration-ms="38198">
+    <groups>
+    </groups>
+    <test started-at="2022-06-23T17:35:46 IST" name="TestTwo" finished-at="2022-06-23T17:35:59 IST" duration-ms="12639">
+      <class name="tests.TestTwo">
+        <test-method signature="testTwo()[pri:0, instance:tests.TestTwo@21fd5faa]" started-at="2022-06-23T17:35:47 IST" name="testTwo" finished-at="2022-06-23T17:35:59 IST" duration-ms="12599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- tests.TestTwo -->
+    </test> <!-- TestTwo -->
+    <test started-at="2022-06-23T17:35:46 IST" name="Testthree" finished-at="2022-06-23T17:36:00 IST" duration-ms="13629">
+      <class name="tests.Testthree">
+        <test-method signature="testthree()[pri:0, instance:tests.Testthree@27d4a09]" started-at="2022-06-23T17:35:47 IST" name="testthree" finished-at="2022-06-23T17:36:00 IST" duration-ms="13588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testthree -->
+      </class> <!-- tests.Testthree -->
+    </test> <!-- Testthree -->
+    <test started-at="2022-06-23T17:35:46 IST" name="LoginText" finished-at="2022-06-23T17:36:08 IST" duration-ms="21115">
+      <class name="tests.LoginText">
+        <test-method is-config="true" signature="openapplication()[pri:0, instance:tests.LoginText@177bea38]" started-at="2022-06-23T17:35:47 IST" name="openapplication" finished-at="2022-06-23T17:35:53 IST" duration-ms="6003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginText@177bea38]" started-at="2022-06-23T17:35:53 IST" name="login" data-provider="getloginData" finished-at="2022-06-23T17:35:55 IST" duration-ms="2102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sonalkharde05@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B@s98765432]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sucessful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closur()[pri:0, instance:tests.LoginText@177bea38]" started-at="2022-06-23T17:35:55 IST" name="closur" finished-at="2022-06-23T17:35:55 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closur -->
+        <test-method is-config="true" signature="openapplication()[pri:0, instance:tests.LoginText@177bea38]" started-at="2022-06-23T17:35:55 IST" name="openapplication" finished-at="2022-06-23T17:35:57 IST" duration-ms="1729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginText@177bea38]" started-at="2022-06-23T17:35:57 IST" name="login" data-provider="getloginData" finished-at="2022-06-23T17:36:08 IST" duration-ms="10894" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closur()[pri:0, instance:tests.LoginText@177bea38]" started-at="2022-06-23T17:36:08 IST" name="closur" finished-at="2022-06-23T17:36:08 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closur -->
+      </class> <!-- tests.LoginText -->
+    </test> <!-- LoginText -->
+    <test started-at="2022-06-23T17:35:46 IST" name="testFour" finished-at="2022-06-23T17:36:25 IST" duration-ms="38198">
+      <class name="tests.testFour">
+        <test-method signature="testfour()[pri:0, instance:tests.testFour@363a52f]" started-at="2022-06-23T17:35:47 IST" name="testfour" finished-at="2022-06-23T17:36:20 IST" duration-ms="33776" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at tests.testFour.testfour(testFour.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:32)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:467)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testfour -->
+        <test-method is-config="true" signature="ClossingBrowser()[pri:0, instance:tests.testFour@363a52f]" started-at="2022-06-23T17:36:21 IST" name="ClossingBrowser" finished-at="2022-06-23T17:36:25 IST" duration-ms="4153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClossingBrowser -->
+      </class> <!-- tests.testFour -->
+    </test> <!-- testFour -->
+  </suite> <!-- Suite -->
+</testng-results>
